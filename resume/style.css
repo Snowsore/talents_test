@@ -1,0 +1,54 @@
+.grid {
+  margin: 0.5rem;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.b-1,
+.b-2,
+.b-3 {
+  display: grid;
+  border: 0.1rem black solid;
+  align-content: center;
+}
+
+.b-1 {
+  grid-column: span 1;
+}
+
+.b-2 {
+  grid-column: span 2;
+}
+
+.b-3 {
+  grid-column: span 3;
+}
+
+.title {
+  padding: 0.6rem;
+  background-color: #bac7f5;
+}
+
+.value {
+  padding: 0.4rem;
+  background-color: aliceblue;
+}
+
+@media (pointer: none), (pointer: coarse) {
+  .sticky {
+    position: sticky;
+    top: 0.2rem;
+  }
+}
+
+.printButton {
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  background: #bac7f5;
+  border: 0;
+}
+
+.printButton:active {
+  filter: brightness(0.9);
+}

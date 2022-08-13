@@ -1,0 +1,86 @@
+[
+  {
+    "type": {
+      "name": "万相",
+      "state": "新购",
+      "sub": "运营商行业标准版"
+    },
+    "id": "QT-202012220156",
+    "name": "新东方教育科技集团有限公司",
+    "domain": "东区金融",
+    "buyer": {
+      "name": "祝延彬",
+      "time": 1608009960000
+    },
+    "config": {
+      "point": 50000,
+      "name": "服务端",
+      "quantity": 5
+    },
+    "duration": {
+      "type": "按年",
+      "quantity": 3
+    },
+    "price": {
+      "detail": [["产品价", 9850000]],
+      "total": 12805000
+    }
+  },
+  {
+    "type": {
+      "name": "万相",
+      "state": "扩容",
+      "sub": "标准版"
+    },
+    "id": "QT-202012220156",
+    "name": "新东方教育科技集团有限公司",
+    "domain": "东区金融",
+    "buyer": {
+      "name": "祝延彬",
+      "time": 1608009960000
+    },
+    "config": {
+      "point": 50000,
+      "name": "服务端",
+      "quantity": 5
+    },
+    "duration": {
+      "type": "买断",
+      "quantity": 1
+    },
+    "price": {
+      "detail": [
+        ["产品价", 9850000],
+        ["维保价", 2955000]
+      ],
+      "total": 12805000
+    }
+  },
+  {
+    "type": {
+      "name": "蜂巢",
+      "state": "新购",
+      "sub": "高级版"
+    },
+    "id": "QT-202012220156",
+    "name": "新东方教育科技集团有限公司",
+    "domain": "东区金融",
+    "buyer": {
+      "name": "祝延彬",
+      "time": 1608009960000
+    },
+    "config": {
+      "point": 50000,
+      "name": "核数",
+      "quantity": 5
+    },
+    "duration": {
+      "type": "Saas",
+      "quantity": 3
+    },
+    "price": {
+      "detail": [["产品价", 9850000]],
+      "total": 12805000
+    }
+  }
+]
